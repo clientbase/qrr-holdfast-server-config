@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!serverconfig_server1_armybattlefield_public1.txt
+!serverconfig_server1_armybattlefield_public2.txt
+!start_server_public1.bat
+!start_server_public2.bat

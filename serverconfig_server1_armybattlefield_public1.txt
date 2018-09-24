@@ -1,0 +1,160 @@
+###- Server & Steam Ports (All 3 ports must be unique per server instance).
+
+server_port 20101
+steam_communications_port 8701
+steam_query_port 27001
+
+
+
+###- Server Settings
+
+server_name QRR Official Linebattle Server 1
+server_welcome_message Welcome to the QRR public server!
+server_region europe
+server_admin_password Wellington
+server_password Elizabeth
+
+
+
+###- Map Rotations
+
+#Rotation 1 = Grassy Plains || [Army Assault] - Calm Weather | Day
+!map_rotation start
+map_name GrassyPlainsII
+game_mode ArmyAssault
+friendly_fire true
+round_time_minutes 15
+reinforcements_per_faction 500
+wave_spawn_time_seconds 1
+max_player_respawns 1
+faction_attacking british
+faction_defending french
+faction_balancing false
+allow_midround_spawning false
+allow_faction_switching false
+allow_spectating true
+minimum_players -1
+maximum_players 200
+time_hour 18
+time_dynamic false
+weather_preset calm
+weather_dynamic false
+game_type hardcore
+!map_rotation end
+
+#Rotation 2 = Desert Plains [Army Assault] - Calm Weather | Day
+!map_rotation start
+map_name DesertPlains
+game_mode ArmyAssault
+friendly_fire true
+round_time_minutes 15
+reinforcements_per_faction 500
+wave_spawn_time_seconds 1
+max_player_respawns 1
+faction_attacking british
+faction_defending french
+faction_balancing false
+allow_midround_spawning false
+allow_faction_switching false
+allow_spectating true
+minimum_players -1
+maximum_players 200
+time_hour 14
+time_dynamic false
+weather_preset calm
+weather_dynamic false
+game_type hardcore
+!map_rotation end
+
+#Rotation 3 = Grassy Plains || [Army Assault] - Calm Weather | Day
+!map_rotation start
+map_name GrassyPlainsII
+game_mode ArmyAssault
+friendly_fire true
+round_time_minutes 15
+reinforcements_per_faction 500
+wave_spawn_time_seconds 1
+max_player_respawns 1
+faction_attacking french
+faction_defending british
+faction_balancing false
+allow_midround_spawning false
+allow_faction_switching false
+allow_spectating true
+minimum_players -1
+maximum_players 200
+time_hour 18
+time_dynamic false
+weather_preset calm
+weather_dynamic false
+game_type hardcore
+!map_rotation end
+
+#Rotation 4 = Tahir Desert [Army Assault] - Calm Weather | Day
+!map_rotation start
+map_name Egypt
+game_mode ArmyAssault
+friendly_fire true
+round_time_minutes 15
+reinforcements_per_faction 500
+wave_spawn_time_seconds 1
+max_player_respawns 1
+faction_attacking french
+faction_defending british
+faction_balancing false
+allow_midround_spawning false
+allow_faction_switching false
+allow_spectating true
+minimum_players -1
+maximum_players 200
+time_hour 14
+time_dynamic false
+weather_preset calm
+weather_dynamic false
+game_type hardcore
+!map_rotation end
+
+#Rotation 5 = Training Grounds [Army Assault] - Calm Weather | Day
+!map_rotation start
+map_name TrainingGrounds
+game_mode ArmyBattlefield
+friendly_fire true
+round_time_minutes 60
+reinforcements_per_faction 1000
+wave_spawn_time_seconds 1
+max_player_respawns -1
+faction_balancing false
+allow_midround_spawning true
+allow_faction_switching true
+allow_spectating true
+minimum_players -1
+maximum_players 200
+time_hour 18
+time_dynamic false
+weather_preset calm
+weather_dynamic false
+!map_rotation end
+
+#Rotation 5 = Snowy Plains III [Army Assault] - Calm Weather | Day
+!map_rotation start
+map_name SnowyPlainsIII
+game_mode ArmyAssault
+friendly_fire true
+round_time_minutes 15
+reinforcements_per_faction 500
+wave_spawn_time_seconds 1
+max_player_respawns 1
+faction_attacking french
+faction_defending british
+faction_balancing false
+allow_midround_spawning false
+allow_faction_switching false
+allow_spectating true
+minimum_players -1
+maximum_players 200
+time_hour 14
+time_dynamic false
+weather_preset calm
+weather_dynamic false
+game_type hardcore
+!map_rotation end

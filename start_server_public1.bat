@@ -1,0 +1,1 @@
+start "vapuriloadtester.exe" /affinity 3 "C:\holdfast_naw_public_servers\vapuriloadtester.exe" -p 20101 -s --serverConfigFilePath "serverconfig_server1_armybattlefield_public1.txt" --outputLog "C:\holdfast_naw_public_servers\logs_output\outputlog_server1_armybattlefield.txt" --logArchivesDirectory "C:\holdfast_naw_public_servers\logs_archive" --framerate 60 --serverheadless
