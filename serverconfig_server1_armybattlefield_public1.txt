@@ -66,9 +66,9 @@ weather_dynamic false
 game_type hardcore
 !map_rotation end
 
-#Rotation 3 = Grassy Plains || [Army Assault] - Calm Weather | Day
+#Rotation 3 = Snowy Plains III [Army Assault] - Calm Weather | Day
 !map_rotation start
-map_name GrassyPlainsII
+map_name SnowyPlainsIII
 game_mode ArmyAssault
 friendly_fire true
 round_time_minutes 15
@@ -83,7 +83,7 @@ allow_faction_switching false
 allow_spectating true
 minimum_players -1
 maximum_players 200
-time_hour 18
+time_hour 14
 time_dynamic false
 weather_preset calm
 weather_dynamic false
@@ -114,47 +114,24 @@ weather_dynamic false
 game_type hardcore
 !map_rotation end
 
-#Rotation 5 = Training Grounds [Army Assault] - Calm Weather | Day
+#Rotation 5 = Training Grounds [Army Battlefield] - TRAINING & PROMOTIONS - Calm Weather | Evening
 !map_rotation start
-map_name TrainingGrounds
+map_name traininggrounds
 game_mode ArmyBattlefield
+game_type Hardcore
 friendly_fire true
-round_time_minutes 60
-reinforcements_per_faction 1000
-wave_spawn_time_seconds 1
-max_player_respawns -1
+round_time_minutes -1
+reinforcements_per_faction 9999
+wave_spawn_time_seconds -1
 faction_balancing false
-allow_midround_spawning true
 allow_faction_switching true
 allow_spectating true
 minimum_players -1
-maximum_players 200
-time_hour 18
+maximum_players 160
+time_hour 17
 time_dynamic false
 weather_preset calm
 weather_dynamic false
-!map_rotation end
-
-#Rotation 5 = Snowy Plains III [Army Assault] - Calm Weather | Day
-!map_rotation start
-map_name SnowyPlainsIII
-game_mode ArmyAssault
-friendly_fire true
-round_time_minutes 15
-reinforcements_per_faction 500
-wave_spawn_time_seconds 1
-max_player_respawns 1
-faction_attacking french
-faction_defending british
-faction_balancing false
-allow_midround_spawning false
-allow_faction_switching false
-allow_spectating true
-minimum_players -1
-maximum_players 200
-time_hour 14
-time_dynamic false
-weather_preset calm
-weather_dynamic false
-game_type hardcore
+faction_attacking british
+faction_defending french
 !map_rotation end
